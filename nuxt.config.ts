@@ -4,7 +4,9 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
     modules: [
         '@nuxt/content',
-        '@nuxt/ui'
+        '@nuxt/ui',
+        '@vueuse/nuxt',
+        '@nuxtjs/color-mode'
     ],
     typescript: {
         shim: false
