@@ -1,4 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Techme
+
+Nuxt 3 & Nuxt Content V2 Example
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
