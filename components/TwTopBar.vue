@@ -14,7 +14,7 @@
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex-shrink-0 flex items-center">
             <img class="block lg:hidden h-8 w-auto" src="https://g.yppstatic.com/02cc4301b70771a23b10e4193f5f83f5.png" alt="比心" />
-            <img class="hidden lg:block h-8 w-auto" src="https://g.yppstatic.com/02cc4301b70771a23b10e4193f5f83f5.png" alt="Workflow" />
+            <img class="hidden lg:block h-8 w-auto" src="https://g.yppstatic.com/02cc4301b70771a23b10e4193f5f83f5.png" alt="比心" />
           </div>
           <div class="hidden sm:block sm:ml-6">
             <div class="flex space-x-4">
