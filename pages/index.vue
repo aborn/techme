@@ -1,8 +1,10 @@
 <template>
-  <NuxtExampleLayout example="essentials/hello-world" repo="nuxt/content">
+
+  <blog example="essentials/hello-world" repo="nuxt/content">
     <template #icon>
       Nuxt/content
     </template>
     <Content :key="$route.path" />
-  </NuxtExampleLayout>
+  </blog>
+  
 </template>
