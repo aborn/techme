@@ -6,8 +6,9 @@ const { data: document } = await useAsyncData('home', () => {
 
 <template>
 <main>
+  <h1>{{ document.titile }}</h1>
   <Content>
-    {{ document }}
+    {{document}}
   </Content>
 </main>
 </template>
