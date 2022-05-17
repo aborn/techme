@@ -2,7 +2,7 @@
   <div class="">
     <TopBar />
 
-    <div class="container mt-top-bar">
+    <div class="container mt-top-bar bg-white text-dark mx-auto px-4">
       <AppTitle>比心技术月刊</AppTitle>
       <slot />
     </div>
