@@ -70,6 +70,6 @@ const navigation = [
   { name: '首页', href: '/', current: true },
   { name: '技术月刊', href: '/blog', current: false },
   { name: '月刊投稿', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: '日历', href: '#', current: false },
 ]
 </script>
