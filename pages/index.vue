@@ -1,10 +1,19 @@
-<template>
+<script setup>
+const { data: document } = await useAsyncData('home', () => {
+  return queryContent('/').findOne()
+})
+</script>
 
-  <blog example="essentials/hello-world" repo="nuxt/content">
-    <template #icon>
-      Nuxt/content
-    </template>
-    <Content :key="$route.path" />
-  </blog>
-  
+<template>
+<main>
+  <Content>
+    {{ document }}
+  </Content>
+</main>
 </template>
+
+<script>
+definePageMeta({
+  layout: "blog",
+});
+</script>

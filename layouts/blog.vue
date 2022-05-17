@@ -4,10 +4,7 @@
 
     <div class="container mt-top-bar">
       <AppTitle>比心技术月刊</AppTitle>
-      <AppIntro>
-        技术中心每月技术分享
-      </AppIntro>
-      <nuxt />
+      <slot />
     </div>
 
   </div>

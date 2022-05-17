@@ -19,7 +19,7 @@
       return {
         navLinks: [
           {
-            url: '/resources/guest-live-streams',
+            url: '/',
             link: '首页'
           },
           {

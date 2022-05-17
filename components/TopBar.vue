@@ -4,7 +4,7 @@
       <div class="w-100 h-auto items-center flex justify-between">
         <div class="w-auto text-white">
           <NuxtLink to="/" class="hover:no-underline flex">
-            <NuxtImg
+            <img
               provider="cloudinary"
               class="rounded-full mr-4 profile-pic border-white border"
               src="https://g.yppstatic.com/02cc4301b70771a23b10e4193f5f83f5.png"
@@ -34,6 +34,7 @@
     </div>
   </header>
 </template>
+
 <script>
   export default {
     data() {
