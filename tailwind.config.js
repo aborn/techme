@@ -1,7 +1,49 @@
 module.exports = {
   content: ['./**.{vue,js}'],
+  darkMode: 'class',
+
   theme: {
-    extend: {},
+    darkSelector: '.dark',
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            'code::before': { content: '' },
+            'code::after': { content: '' }
+          }
+        }
+      },
+      colors: {
+        primary: '#d8002d',
+        secondary: '#333',
+        dark: '#091a28',
+        elevated: '#dfe8ef',
+        linkExactActiveClass: '#fd213b'
+      },
+      margin: {
+        'top-bar': '100px'
+      },
+      fontFamily: {
+        Saira: ['Saira']
+      },
+      maxWidth: {
+        '1/4': '25%'
+      }
+    }
   },
-  plugins: [],
+  variants: {
+    backgroundColor: [
+      // 'dark',
+      // 'dark-hover',
+      // 'dark-group-hover',
+      // 'dark-even',
+      // 'dark-odd'
+    ]
+    // borderColor: ['dark', 'dark-focus', 'dark-focus-within'],
+    // textColor: ['dark', 'dark-hover', 'dark-active']
+  },
+  plugins: [
+    require('tailwindcss-dark-mode'),
+    require('@tailwindcss/typography')
+  ]
 }
