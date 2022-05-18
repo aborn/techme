@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@nuxt/content": "npm:@nuxt/content-edge@latest",
+    "@nuxthq/admin": "npm:@nuxthq/admin-edge@latest",
     "@nuxt/ui": "^0.1.1",
     "@nuxtjs/color-mode": "^3.0.3",
     "@vueuse/core": "^8.5.0",
